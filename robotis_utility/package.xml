@@ -1,19 +1,30 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>robotis_utility</name>
-  <version>0.1.3</version>
+  <version>0.3.0</version>
   <description>
     ROS packages for the ROBOTIS Utility (meta package)
   </description>
   <license>Apache 2.0</license>
   <author email="zerom@robotis.com">Zerom</author>
   <author>Jay Song</author>
-  <maintainer email="pyo@robotis.com">Pyo</maintainer>
+  <maintainer email="ronaldsonbellande@gmail.com">Ronaldson Bellande</maintainer>
   <url type="website">http://wiki.ros.org/robotis_utility</url>
   <url type="repository">https://github.com/ROBOTIS-GIT/ROBOTIS-Utility</url>
   <url type="bugtracker">https://github.com/ROBOTIS-GIT/ROBOTIS-Utility/issues</url>
+
   <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>ros_mpg321_player</build_depend>
+  <build_depend>ros_madplay_player</build_depend>
+
+  <build_export_depend>ros_mpg321_player</build_export_depend>
+  <build_export_depend>ros_madplay_player</build_export_depend>
+
   <exec_depend>ros_mpg321_player</exec_depend>
   <exec_depend>ros_madplay_player</exec_depend>
-  <export><metapackage/></export>
+
+  <export>
+    <metapackage />
+  </export>
 </package>
