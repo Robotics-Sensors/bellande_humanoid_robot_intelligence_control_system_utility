@@ -2,6 +2,11 @@
 Changelog for package ros_madplay_player
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.0 (2021-05-12)
+------------------
+* Update package.xml and CMakeList.txt for noetic branch
+* Contributors: Ronaldson Bellande
+
 0.1.3 (2018-03-21)
 ------------------
 * changed package format to v2 and LICENSE to Apache 2.0
