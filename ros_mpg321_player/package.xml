@@ -8,11 +8,22 @@
   </description>
   <license>Apache 2.0</license>
   <author email="zerom@robotis.com">Zerom</author>
-  <maintainer email="pyo@robotis.com">Pyo</maintainer>
+  <maintainer email="ronaldsonbellande@gmail.com">Ronaldson Bellande</maintainer>
+
   <url type="website">http://wiki.ros.org/ros_mpg321_player</url>
   <url type="repository">https://github.com/ROBOTIS-GIT/ROBOTIS-Utility</url>
   <url type="bugtracker">https://github.com/ROBOTIS-GIT/ROBOTIS-Utility/issues</url>
+
   <buildtool_depend>catkin</buildtool_depend>
-  <depend>roscpp</depend>
-  <depend>std_msgs</depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+
 </package>

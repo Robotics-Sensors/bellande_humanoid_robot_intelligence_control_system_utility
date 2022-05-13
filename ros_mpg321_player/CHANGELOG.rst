@@ -2,6 +2,11 @@
 Changelog for package ros_mpg321_player
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.0 (2021-05-12)
+------------------
+* Update package.xml and CMakeList.txt for noetic branch
+* Contributors: Ronaldson Bellande
+
 0.1.3 (2018-03-21)
 ------------------
 * fixed movement_done msg publish bug
