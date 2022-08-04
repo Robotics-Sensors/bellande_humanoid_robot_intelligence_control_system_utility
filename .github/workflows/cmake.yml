@@ -24,7 +24,6 @@ jobs:
     - name: Configure CMake 3
       run: cmake -E make_directory ${{runner.workspace}}/ros_mpg321_player/build
       
-      
           
     - name: Install dependencies
       shell: bash
@@ -41,7 +40,6 @@ jobs:
     - name: Build 3
       run: cmake -E  make_directory --build ${{runner.workspace}}/ros_mpg321_player/build --config ${{env.BUILD_TYPE}}
 
- 
  
     - name: Test 1
       working-directory: ${{runner.workspace}}/robotis_utility/build
