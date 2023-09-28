@@ -1,0 +1,21 @@
+build
+devel
+bin
+lib
+msg_gen
+srv_gen
+qtcreator-build
+*~
+*.backup
+*.user
+*.autosave
+
+# Scripts
+init_setup.sh
+repository_recal.sh
+push.sh
+publish.sh
+ros_publish.sh
+prerelease_test.sh
+fix_errors.sh
+replace_add_index.sh
