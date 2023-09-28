@@ -3,7 +3,7 @@
 --------------------------------------------------------------------------------------------------------
 Updated Version [humanoid_robot_utility](https://github.com/Robotics-Sensors/humanoid_robot_utility) readme.
 
-Old Version/Previous Used for Different Context [ROBOTIS-OP3-Demo](https://github.com/ROBOTIS-GIT/ROBOTIS-Utility) readme.
+Old Version/Previous Used for Different Context [ROBOTIS-Utility](https://github.com/ROBOTIS-GIT/ROBOTIS-Utility) readme.
 
 --------------------------------------------------------------------------------------------------------
 ## Important
