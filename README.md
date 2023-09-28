@@ -1,7 +1,7 @@
 # ROS/ROS2 Humanoid Robot Utility
 
 --------------------------------------------------------------------------------------------------------
-Updated Version [humanoid_robot_module](https://github.com/Robotics-Sensors/humanoid_robot_utility) readme.
+Updated Version [humanoid_robot_utility](https://github.com/Robotics-Sensors/humanoid_robot_utility) readme.
 
 --------------------------------------------------------------------------------------------------------
 ## Important
