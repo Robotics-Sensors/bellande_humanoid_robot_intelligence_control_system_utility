@@ -73,7 +73,7 @@ int main(int argc, char **argv) {
 
   ros::Subscriber play_mp3_sub =
       nh.subscribe("/play_sound_file", 10, &play_sound_callback);
-  g_done_msg_pub = nh.advertise<std_msgs::String>("/robotis/movement_done", 5);
+  g_done_msg_pub = nh.advertise<std_msgs::String>("/humanoid_robot/movement_done", 5);
 
   ros::spin();
   return 0;
