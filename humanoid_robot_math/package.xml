@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>ros_mpg321_player</name>
-  <version>0.1.3</version>
+  <name>humanoid_robot_math</name>
+  <version>0.3.0</version>
   <description>
-    This package is a node that can playing mp3 file.
-    This package is using mpg321 which is command-line mp3 player.
+    This package is a set of basic math fuctions for ROBOTIS's robots.
+    We provide some linear algebra and trajectory generation funntions and classes.
   </description>
   <license>Apache 2.0</license>
   <maintainer email="ronaldsonbellande@gmail.com">Ronaldson Bellande</maintainer>
@@ -12,13 +12,12 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <build_depend>roscpp</build_depend>
-  <build_depend>std_msgs</build_depend>
+  <build_depend>eigen</build_depend>
 
   <build_export_depend>roscpp</build_export_depend>
-  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>eigen</build_export_depend>
 
   <exec_depend>roscpp</exec_depend>
-  <exec_depend>std_msgs</exec_depend>
-
+  <exec_depend>eigen</exec_depend>
 
 </package>
