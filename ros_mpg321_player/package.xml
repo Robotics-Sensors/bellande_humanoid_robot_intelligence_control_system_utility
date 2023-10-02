@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<package format="2">
+<package format="3">
   <name>ros_mpg321_player</name>
   <version>0.1.3</version>
   <description>
