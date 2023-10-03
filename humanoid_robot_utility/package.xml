@@ -12,14 +12,29 @@
   <buildtool_depend condition="$ROS_VERSION == 2">ament_cmake</buildtool_depend>
 
 
-  <build_depend>ros_mpg321_player</build_depend>
-  <build_depend>ros_madplay_player</build_depend>
+  <condition if="$ROS_VERSION == 1">
+    <build_depend>ros_mpg321_player</build_depend>
+    <build_depend>ros_madplay_player</build_depend>
 
-  <build_export_depend>ros_mpg321_player</build_export_depend>
-  <build_export_depend>ros_madplay_player</build_export_depend>
+    <build_export_depend>ros_mpg321_player</build_export_depend>
+    <build_export_depend>ros_madplay_player</build_export_depend>
 
-  <exec_depend>ros_mpg321_player</exec_depend>
-  <exec_depend>ros_madplay_player</exec_depend>
+    <exec_depend>ros_mpg321_player</exec_depend>
+    <exec_depend>ros_madplay_player</exec_depend>
+  </condition>
+
+
+  <condition if="$ROS_VERSION == 2">
+    <build_depend>ros_mpg321_player</build_depend>
+    <build_depend>ros_madplay_player</build_depend>
+
+    <build_export_depend>ros_mpg321_player</build_export_depend>
+    <build_export_depend>ros_madplay_player</build_export_depend>
+
+    <exec_depend>ros_mpg321_player</exec_depend>
+    <exec_depend>ros_madplay_player</exec_depend>
+  </condition>
+
 
   <export>
     <metapackage />
