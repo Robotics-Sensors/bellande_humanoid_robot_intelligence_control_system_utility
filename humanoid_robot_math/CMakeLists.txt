@@ -7,7 +7,6 @@ if($ENV{ROS_VERSION} EQUAL 1)
     catkin REQUIRED COMPONENTS
     roscpp
   )
-
   find_package(Eigen3 REQUIRED)
 else()
   find_package(ament_cmake REQUIRED)
@@ -22,8 +21,6 @@ if($ENV{ROS_VERSION} EQUAL 1)
     roscpp
     DEPENDS EIGEN3
   )
-else()
-  ament_package()
 endif()
 
 
