@@ -14,9 +14,9 @@
  * limitations under the License.
  *******************************************************************************/
 
+#include <humanoid_robot_math/step_data_define.h>
 #include <iomanip>
 #include <iostream>
-#include <humanoid_robot_math/step_data_define.h>
 
 namespace humanoid_robot_framework {
 std::string dispatchMovingFoot(int moving_foot) {
@@ -92,6 +92,7 @@ std::ostream &operator<<(std::ostream &out, const StepTimeData &time_data) {
       << time_data.finish_time_advance_ratio_roll << "/"
       << time_data.finish_time_advance_ratio_pitch << "/"
       << time_data.finish_time_advance_ratio_yaw;
+  return out;
 }
 
 std::ostream &operator<<(std::ostream &out, const StepData &step_data) {
