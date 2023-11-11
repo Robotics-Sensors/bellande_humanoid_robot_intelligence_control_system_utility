@@ -33,7 +33,5 @@
   <exec_depend condition="$ROS_VERSION == 2">ros_mpg321_player</exec_depend>
   <exec_depend condition="$ROS_VERSION == 2">ros_madplay_player</exec_depend>
 
-  <export>
-    <metapackage />
-  </export>
+  <export></export>
 </package>
