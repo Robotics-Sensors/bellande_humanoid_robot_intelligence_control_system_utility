@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="3">
   <name>ros_madplay_player</name>
-  <version>0.3.0</version>
+  <version>0.3.2</version>
   <description>
     This package is a node that can playing mp3 file.
     This package is using madplay which is command-line mp3 player.
