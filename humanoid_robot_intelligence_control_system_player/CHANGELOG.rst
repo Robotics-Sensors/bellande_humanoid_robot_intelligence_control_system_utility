@@ -1,6 +1,6 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package humanoid_robot_intelligence_control_system_utility
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog for package humanoid_robot_intelligence_control_system_player
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 0.3.2 (2023-10-03)
 ------------------
@@ -19,26 +19,28 @@ Changelog for package humanoid_robot_intelligence_control_system_utility
 * Update package.xml and CMakeList.txt for to the latest versions
 * Contributors & Maintainer: Ronaldson Bellande
 
+0.3.0 (2021-05-12)
+------------------
+* Update package.xml and CMakeList.txt for noetic branch
+* Contributors: Ronaldson Bellande
+
 0.1.3 (2018-03-21)
 ------------------
-* fixed movement_done msg publish bug
 * changed package format to v2 and LICENSE to Apache 2.0
+* fixed movement_done msg publish bug
 * Contributors: Zerom, Pyo
 
 0.1.2 (2017-04-24)
 ------------------
 * modified humanoid_robot_intelligence_control_system_player pkg
-* added movement done msg
 * Contributors: Jay Song
 
-0.1.1 (2016-09-23)
+0.1.1 (2017-02-03)
 ------------------
-* modified install rule
+* added humanoid_robot_intelligence_control_system_player pkg
 * Contributors: Zerom, Jay Song, Pyo
 
 0.1.0 (2016-08-17)
 ------------------
-* added ros_mpg321_player pkg
 * made the meta-package for rosbotis utility
-* modified ros_mpg321_player, edit package.xml, add stop playing
-* Contributors: Zerom, Jay Song, Pyo
+* Contributors: Zerom, Pyo
