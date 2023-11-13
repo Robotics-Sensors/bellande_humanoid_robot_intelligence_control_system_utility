@@ -27,7 +27,7 @@ Changelog for package humanoid_robot_intelligence_control_system_utility
 
 0.1.2 (2017-04-24)
 ------------------
-* modified ros_madplay_player pkg
+* modified humanoid_robot_intelligence_control_system_player pkg
 * added movement done msg
 * Contributors: Jay Song
 

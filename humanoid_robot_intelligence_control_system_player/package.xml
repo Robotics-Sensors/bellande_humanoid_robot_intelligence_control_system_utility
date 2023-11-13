@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="3">
-  <name>ros_madplay_player</name>
+  <name>humanoid_robot_intelligence_control_system_player</name>
   <version>0.3.2</version>
   <description>
     This package is a node that can playing mp3 file.

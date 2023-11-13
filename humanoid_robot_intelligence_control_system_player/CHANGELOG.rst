@@ -1,5 +1,5 @@
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package ros_madplay_player
+Changelog for package humanoid_robot_intelligence_control_system_player
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 0.3.2 (2023-10-03)
@@ -32,12 +32,12 @@ Changelog for package ros_madplay_player
 
 0.1.2 (2017-04-24)
 ------------------
-* modified ros_madplay_player pkg
+* modified humanoid_robot_intelligence_control_system_player pkg
 * Contributors: Jay Song
 
 0.1.1 (2017-02-03)
 ------------------
-* added ros_madplay_player pkg
+* added humanoid_robot_intelligence_control_system_player pkg
 * Contributors: Zerom, Jay Song, Pyo
 
 0.1.0 (2016-08-17)

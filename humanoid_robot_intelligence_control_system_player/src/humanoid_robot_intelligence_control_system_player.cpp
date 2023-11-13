@@ -15,13 +15,13 @@
  *******************************************************************************/
 
 /*
- * ros_madplay_player.cpp
+ * humanoid_robot_intelligence_control_system_player.cpp
  *
  *  Created on: 2017. 02. 03.
  *      Author: Jay Song
  */
 
-#include "ros_madplay_player/ros_madplay_player.h"
+#include "humanoid_robot_intelligence_control_system_player/humanoid_robot_intelligence_control_system_player.h"
 
 pid_t g_play_pid = -1;
 std::string g_sound_file_path = "";
@@ -63,7 +63,7 @@ void play_sound_callback(const std_msgs::String::ConstPtr &msg) {
 }
 
 int main(int argc, char **argv) {
-  ros::init(argc, argv, "ros_madplay_player");
+  ros::init(argc, argv, "humanoid_robot_intelligence_control_system_player");
   ros::NodeHandle nh;
 
   g_sound_file_path = nh.param<std::string>("sound_file_path", "");

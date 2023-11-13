@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(ros_madplay_player)
+project(humanoid_robot_intelligence_control_system_player)
 
 
 if($ENV{ROS_VERSION} EQUAL 1)
@@ -28,7 +28,7 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
-add_executable(${PROJECT_NAME} src/ros_madplay_player.cpp)
+add_executable(${PROJECT_NAME} src/humanoid_robot_intelligence_control_system_player.cpp)
 add_dependencies(${PROJECT_NAME} ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 target_link_libraries(${PROJECT_NAME} ${catkin_LIBRARIES})
 

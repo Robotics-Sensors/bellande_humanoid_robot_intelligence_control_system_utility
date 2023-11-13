@@ -15,7 +15,7 @@
  *******************************************************************************/
 
 /*
- * ros_madplay_player.h
+ * humanoid_robot_intelligence_control_system_player.h
  *
  *  Created on: 2017. 02. 03.
  *      Author: Jay Song
