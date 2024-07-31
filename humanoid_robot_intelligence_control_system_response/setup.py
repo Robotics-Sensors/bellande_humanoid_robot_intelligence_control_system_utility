@@ -18,7 +18,7 @@ from catkin_pkg.python_setup import generate_distutils_setup
 
 # fetch values from package.xml
 setup_args = generate_distutils_setup(
-    scripts=['src/humanoid_robot_intelligence_control_system_response.py'],
+    scripts=['src/humanoid_robot_intelligence_control_system_response.py', "src/humanoid_robot_intelligence_control_system_command.py"],
     packages=['humanoid_robot_intelligence_control_system_response'],
     package_dir={'': 'src'},
 )
