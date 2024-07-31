@@ -16,7 +16,7 @@ the License.
 -->
 
 <package format="3">
-  <name>humanoid_robot_intelligence_control_system_response</name>
+  <name>humanoid_robot_intelligence_control_system_ai_system</name>
   <version>0.3.2</version>
   <description>
     This package is a node that can play or respond to cetain inputs or activities

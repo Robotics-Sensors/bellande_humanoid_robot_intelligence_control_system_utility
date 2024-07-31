@@ -13,7 +13,7 @@
 # the License.
 
 cmake_minimum_required(VERSION 3.8)
-project(humanoid_robot_intelligence_control_system_response)
+project(humanoid_robot_intelligence_control_system_ai_system)
 
 # Find ROS
 if($ENV{ROS_VERSION} EQUAL 1)
