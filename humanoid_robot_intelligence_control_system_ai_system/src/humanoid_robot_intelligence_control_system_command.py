@@ -18,7 +18,7 @@ import os
 import threading
 from std_msgs.msg import String
 
-class HumanoidRobotIntelligenceSystem:
+class HumanoidRobotIntelligenceSystemCommand:
     def __init__(self, node):
         self.node = node
         self.current_ai_response = None
