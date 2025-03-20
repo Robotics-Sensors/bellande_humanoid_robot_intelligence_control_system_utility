@@ -1,5 +1,8 @@
 # Welcome to the {BRSRI} Bellande Humanoid Robot Intelligence Control System utility
 
+## 🤖 Explore Humanoid Robot Intelligence with Us!
+Welcome to the {BR&SRI} Humanoid Robot Intelligence Control System utility repository! Here, we invite you to delve into the fascinating world of humanoid robotics, showcasing the innovative capabilities of our intelligent control system.
+
 # Bellande Robotic Operating System Architecture
 - https://git.bellande-technologies.com/BRSRI/bellande_robotic_system_operating_architecture
 - https://github.com/Robotics-Sensors/bellande_robotic_system_operating_architecture
@@ -9,10 +12,6 @@
 - https://git.bellande-technologies.com/BRSRI/bellande_configs_system
 - https://github.com/Robotics-Sensors/bellande_configs_system
 - https://gitlab.com/Bellande-Robotics-Sensors-Research-Innovation-Center/bellande_configs_system
-
-## 🤖 Explore Humanoid Robot Intelligence with Us!
-Welcome to the {BR&SRI} Humanoid Robot Intelligence Control System utility repository! Here, we invite you to delve into the fascinating world of humanoid robotics, showcasing the innovative capabilities of our intelligent control system.
-
 
 [![Website](https://img.shields.io/badge/Visit%20our-Website-0099cc?style=for-the-badge)](https://robotics-sensors.github.io)
 [![Discord](https://img.shields.io/badge/Join%20our-Discord-7289DA?logo=discord&style=for-the-badge)](https://discord.gg/Yc72nd4w)
