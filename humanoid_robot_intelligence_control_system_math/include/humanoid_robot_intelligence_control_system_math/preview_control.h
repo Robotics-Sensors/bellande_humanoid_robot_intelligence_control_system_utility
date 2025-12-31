@@ -23,7 +23,14 @@
 #include "humanoid_robot_intelligence_control_system_linear_algebra.h"
 #include "humanoid_robot_intelligence_control_system_math_base.h"
 
-#include <ros/ros.h>
+#if defined(ROS_VERSION) && ROS_VERSION == 1
+  #include <ros/ros.h>
+#elif defined(ROS_VERSION) && ROS_VERSION == 2
+  #include <rclcpp/rclcpp.hpp>
+#else
+  #error "ROS_VERSION is not defined or has an invalid value"
+#endif
+
 #include <stdint.h>
 #include <vector>
 
