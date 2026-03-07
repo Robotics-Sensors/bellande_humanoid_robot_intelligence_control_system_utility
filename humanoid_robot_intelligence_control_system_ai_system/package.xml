@@ -41,12 +41,15 @@ the License.
 
   <build_depend condition="$ROS_VERSION == 2">rclcpp</build_depend>
   <build_depend condition="$ROS_VERSION == 2">rclpy</build_depend>
+  <build_depend condition="$ROS_VERSION == 2">rosidl_interface_packages</build_depend>
 
   <build_export_depend condition="$ROS_VERSION == 2">rclcpp</build_export_depend>
   <build_export_depend condition="$ROS_VERSION == 2">rclpy</build_export_depend>
 
   <exec_depend condition="$ROS_VERSION == 2">rclcpp</exec_depend>
   <exec_depend condition="$ROS_VERSION == 2">rclpy</exec_depend>
-
+  <exec_depend condition="$ROS_VERSION == 2">rosidl_interface_packages</exec_depend>
+  
+  <member_of_group condition="$ROS_VERSION == 2">rosidl_interface_packages</member_of_group>
 
 </package>

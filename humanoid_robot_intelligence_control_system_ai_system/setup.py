@@ -13,14 +13,57 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-from distutils.core import setup
-from catkin_pkg.python_setup import generate_distutils_setup
+import os
+import sys
 
-# fetch values from package.xml
-setup_args = generate_distutils_setup(
-    scripts=['src/humanoid_robot_intelligence_control_system_response.py', "src/humanoid_robot_intelligence_control_system_command.py"],
-    packages=['humanoid_robot_intelligence_control_system_ai_system'],
-    package_dir={'': 'src'},
-)
+# Determine ROS version from environment variable
+ros_version = os.getenv('ROS_VERSION', '1')  # Default to ROS 1 if not set
 
-setup(**setup_args)
+# Handle ROS 1 (uses distutils and catkin_pkg)
+if ros_version == '1':
+    from distutils.core import setup
+    from catkin_pkg.python_setup import generate_distutils_setup
+
+    # Fetch values from package.xml for ROS 1
+    setup_args = generate_distutils_setup(
+        scripts=[
+            'src/humanoid_robot_intelligence_control_system_response.py',
+            'src/humanoid_robot_intelligence_control_system_command.py'
+        ],
+        packages=['humanoid_robot_intelligence_control_system_ai_system'],
+        package_dir={'': 'src'},
+    )
+
+    setup(**setup_args)
+
+# Handle ROS 2 (uses setuptools)
+elif ros_version == '2':
+    from setuptools import setup, find_packages
+
+    package_dir = 'src'
+    packages = find_packages(where=package_dir)
+
+    setup(
+        name='humanoid_robot_intelligence_control_system_ai_system',
+        version='0.1.0',
+        packages=packages,
+        package_dir={'': package_dir},
+        scripts=[
+            'src/humanoid_robot_intelligence_control_system_response.py',
+            'src/humanoid_robot_intelligence_control_system_command.py'
+        ],
+        install_requires=[
+            'setuptools',
+            # Add other dependencies as needed
+        ],
+        zip_safe=True,
+        description="AI system for humanoid robot intelligence control",
+        license='GPLv3',
+        author='Ronaldson Bellande',
+        author_email='ronaldsonbellande@gmail.com',
+        url='https://github.com/Robotics-Sensors/bellande_humanoid_robot_intelligence_control_system_tools'
+    )
+
+else:
+    sys.stderr.write(f"Unsupported ROS_VERSION: {ros_version}. Please set ROS_VERSION to '1' or '2'.\n")
+    sys.exit(1)   
